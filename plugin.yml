@@ -1,8 +1,8 @@
-name: MPouch
+name: ElmunaBandages
 main: MPouch\Main
 api: [3.0.0] 
-version: 1.1.0
-author: Shelly7w7
+version: 1.0.0
+author: EmeraldMC
 commands:
-  mp:
-    description: "Get moneypouches"
+  bandage:
+    description: "Get bandages"
