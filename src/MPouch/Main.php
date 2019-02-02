@@ -80,7 +80,7 @@ class Main extends PluginBase implements Listener{
 		if($event->getItem()->getId() === 339){
 			switch($event->getItem()->getDamage()){
 				case 101:
-					$player-setHealth(20);
+					$player->setHealth(20);
 					$player->sendMessage("§3(§b!§3) §7You have been healed!");
 					$player->getInventory()->removeItem(Item::get(379, 101, 1));
 					return;
